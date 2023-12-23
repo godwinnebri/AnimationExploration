@@ -11,6 +11,10 @@
 		CE6C66862B3792BA00871036 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6C66852B3792BA00871036 /* ContentView.swift */; };
 		CE6C66882B3792C000871036 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE6C66872B3792C000871036 /* Assets.xcassets */; };
 		CE6C668B2B3792C000871036 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE6C668A2B3792C000871036 /* Preview Assets.xcassets */; };
+		CE6C66942B37932C00871036 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6C66932B37932C00871036 /* HomeView.swift */; };
+		CE6C66962B37938800871036 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6C66952B37938800871036 /* HomeViewModel.swift */; };
+		CE6C669B2B37941A00871036 /* CardComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6C669A2B37941A00871036 /* CardComponent.swift */; };
+		CE6C669E2B37956800871036 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6C669D2B37956800871036 /* CardModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		CE6C66852B3792BA00871036 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CE6C66872B3792C000871036 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE6C668A2B3792C000871036 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE6C66932B37932C00871036 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		CE6C66952B37938800871036 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		CE6C669A2B37941A00871036 /* CardComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardComponent.swift; sourceTree = "<group>"; };
+		CE6C669D2B37956800871036 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,9 @@
 		CE6C66822B3792BA00871036 /* WidgetExploration */ = {
 			isa = PBXGroup;
 			children = (
+				CE6C669C2B37942E00871036 /* Model */,
+				CE6C66972B37939000871036 /* Components */,
+				CE6C66912B3792F700871036 /* Views */,
 				CE6C66832B3792BA00871036 /* WidgetExplorationApp.swift */,
 				CE6C66852B3792BA00871036 /* ContentView.swift */,
 				CE6C66872B3792C000871036 /* Assets.xcassets */,
@@ -65,6 +76,39 @@
 				CE6C668A2B3792C000871036 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE6C66912B3792F700871036 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE6C66922B37930000871036 /* Home */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE6C66922B37930000871036 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CE6C66932B37932C00871036 /* HomeView.swift */,
+				CE6C66952B37938800871036 /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CE6C66972B37939000871036 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				CE6C669A2B37941A00871036 /* CardComponent.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		CE6C669C2B37942E00871036 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE6C669D2B37956800871036 /* CardModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +181,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE6C66942B37932C00871036 /* HomeView.swift in Sources */,
 				CE6C66862B3792BA00871036 /* ContentView.swift in Sources */,
 				CE6C66842B3792BA00871036 /* WidgetExplorationApp.swift in Sources */,
+				CE6C669B2B37941A00871036 /* CardComponent.swift in Sources */,
+				CE6C66962B37938800871036 /* HomeViewModel.swift in Sources */,
+				CE6C669E2B37956800871036 /* CardModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
