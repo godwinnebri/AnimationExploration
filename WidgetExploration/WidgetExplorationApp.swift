@@ -11,7 +11,7 @@ import SwiftUI
 struct WidgetExplorationApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }
